@@ -1,0 +1,180 @@
+/* Your styles here */
+
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    padding: 15px;
+    color: #393d41;
+    background-position: center center;
+}
+
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    padding: 1em;
+}
+
+header {
+    background-image: url(/asset/images/banner.jpg);
+    color: black;
+    text-align: center;
+    background-size: cover;
+}
+
+
+
+#logo {
+    text-align: center;
+    padding: 30px;
+    max-width: 50%;
+}
+
+#logo_contain {
+    background-color: black;
+    text-align: left;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+#logo,
+header,
+main,
+footer {
+    padding: 2%;
+}
+
+button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.8em 2em;
+    border-radius: 5%;
+}
+
+button a {
+    text-decoration: none;
+}
+
+
+.box_img {
+    margin-left: 8em;
+    text-align: center;
+}
+
+.img_radius {
+    float: left;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#red {
+    background-color: #e22d0e;
+    color: white;
+    margin: 2em 0;
+    padding: 3em;
+}
+
+.align_left h3,
+.align_left h2,
+.align_left p {
+    text-align: left;
+}
+
+q {
+    font-style: italic;
+}
+
+span {
+    font-size: 0.7em;
+}
+
+
+.border {
+    border: 1px solid #dee1e3;
+    border-radius: 1%;
+    margin: 0 auto 1.5em auto;
+    font-size: 1.1em;
+    display: inline-block;
+    text-align: left;
+    max-width: 30%;
+    margin-right: 1em;
+}
+
+
+section {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #25a2c3;
+}
+
+
+address {
+    text-align: left;
+}
+
+.border_bottom {
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+address a {
+    color: #c8e7f0;
+    display: block;
+    text-align: center;
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin: 0 auto 2em auto;
+    color: #ffffff;
+}
