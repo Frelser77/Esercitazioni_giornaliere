@@ -1,0 +1,211 @@
+/* Your styles here */
+
+* {
+    box-sizing: border-box
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    padding: 15px;
+    color: #393d41;
+    background-position: center center;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #25a2c3;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+p {
+    padding-top: 0.5em;
+    font-size: 1.1em;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-image: url(/asset/images/banner.jpg);
+    color: black;
+    text-align: center;
+    background-size: cover;
+}
+
+#logo {
+    padding: 30px;
+    max-width: 50%;
+}
+
+#logo_contain {
+    background-color: black;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#logo,
+header,
+main,
+footer {
+    padding: 2%;
+}
+
+button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0.8em 2em;
+    border-radius: 5%;
+    margin-top: 7em;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.box_img {
+    width: 40%;
+    float: left;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box_img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.align_left {
+    width: 50%;
+    text-align: left;
+}
+
+.img_radius {
+    border-radius: 50%;
+    margin: auto;
+}
+
+#red {
+    background-color: #e22d0e;
+    color: white;
+    margin: 2em 0;
+}
+
+.special_p {
+    padding-top: 4em;
+}
+
+
+.padding_p {
+    padding: 1.5em;
+}
+
+.align_left h3,
+.align_left h2,
+.align_left p {
+    text-align: left;
+}
+
+q {
+    font-style: italic;
+}
+
+span {
+    font-size: 0.7em;
+}
+
+.border {
+    border: 1px solid #dee1e3;
+    text-align: center;
+    margin: 0 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.img_center {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #25a2c3;
+}
+
+
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.border_bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.border_bottom {
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+address a {
+    color: #c8e7f0;
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    margin: 0 auto 2em auto;
+    color: #ffffff;
+}

@@ -8,7 +8,7 @@
         content="Da zero a Epicode con i corsi completi per diventare uno sviluppatore professionista in 3 mesi.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="asset/css/reset.css">
-    <link rel="stylesheet" href="asset/css/style_mobile.css">
+    <link rel="stylesheet" href="asset/css/style_desktop.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital@0;1&display=swap"
@@ -37,26 +37,30 @@
     </header>
     <main>
         <article>
-            <!-- Inizio articolo -->
-            <h3>Tutti ti cercheranno</h3>
-            <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.</p>
-            <h3>Lavora dove vuoi</h3>
-            <p>Lavora da casa, in riva al mare o in montagna.</p>
-
-            <!-- immagine pc -->
-            <img class="img_radius" src="asset/images/notebook.jpg" alt="">
-
-            <h3>Scegli il tuo ruolo</h3>
-            <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
-            <h2>Lavoro in libertà</h2>
-            <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
+            <div class="container">
+                <!-- immagine pc -->
+                <div class="box_img">
+                    <img class="img_radius" src="asset/images/notebook.jpg" alt="">
+                </div>
+                <!-- Inizio articolo -->
+                <div class="align_left">
+                    <h3>Tutti ti cercheranno</h3>
+                    <p>Sono 30.000 in Italia le posizioni di developer scoperte, scegli quella che ti stimola di più.
+                    </p>
+                    <h3>Lavora dove vuoi</h3>
+                    <p>Lavora da casa, in riva al mare o in montagna.</p>
+                    <h3>Scegli il tuo ruolo</h3>
+                    <p>Potrai scegliere se essere Azienda, Freelance o Startup.</p>
+                    <h2>Lavoro in libertà</h2>
+                    <p>Non serve lavorare in ufficio per essere creatori di prodotti digitali.</p>
+                </div>
+            </div>
             <div id="red">
                 <h5>Epicode garantisce</h5>
-                <p> <q>"3 mesi intensivi di corso che cambieranno radicalmente la tua vita".</q></p>
-                <p>Mario Rossi <br>
+                <p class="padding_p"> <q>"3 mesi intensivi di corso che cambieranno radicalmente la tua vita".</q></p>
+                <p class="special_p">Mario Rossi <br>
                     <span>CEO, Epicode</span>
                 </p>
-
             </div>
             <!-- le tre immagini finali -->
             <section>
@@ -71,7 +75,7 @@
                     <p>Impara da chi diventerai tra qualche anno, e diventa una rockstar come loro.</p>
                 </div>
                 <div class="border">
-                    <img src="asset/images/foto3.jpg" alt="Immagine studio co-working">
+                    <img class="img_center" src="asset/images/foto3.jpg" alt="Immagine studio co-working">
                     <h4>Lavora subito</h4>
                     <p>Sappiamo cosa vogliono le aziende, perché lavoriamo con loro.</p>
                 </div>
@@ -80,15 +84,19 @@
     </main>
     <!-- Footer/fine pagina -->
     <footer>
-        <h6>Contattaci</h6>
-        <address>
-            <a href="tel:+3911223456"><i class="fas fa-phone"></i>(+39)11223456</a>
-            <a href="mailto:info@epicode.school"><i class="far fa-envelope"></i>info@epicode.school</a>
-            <span><i class="fas fa-location-arrow"></i> Via Appia 1 - 00100 Roma (RM)</span>
-            <hr>
-            <span>&copy; 2021. Immagini di <a href="https://pixabay.com/it/" target="_blank">Pixabay.</a></span>
-        </address>
+        <div class="footer-container">
+            <h6>Contattaci</h6>
+            <address>
+                <a href="tel:+3911223456"><i class="fas fa-phone"></i>(+39)11223456</a>
+                <a href="mailto:info@epicode.school"><i class="far fa-envelope"></i>info@epicode.school</a>
+                <span class="border_bottom"><i class="fas fa-location-arrow"></i>
+                    <p>Via Appia 1 - 00100 Roma (RM)</p>
+                </span>
+                <span>&copy; 2021. Immagini di <a href="https://pixabay.com/it/" target="_blank">Pixabay.</a></span>
+            </address>
+        </div>
     </footer>
+
 </body>
 
 </html>
