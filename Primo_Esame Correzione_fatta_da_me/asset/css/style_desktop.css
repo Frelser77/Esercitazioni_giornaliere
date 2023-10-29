@@ -1,30 +1,34 @@
 /* Your styles here */
 
+/* Stili globali */
 * {
     box-sizing: border-box
 }
 
-
+/* Stili per tutto il body */
 body {
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     line-height: 1.65;
-    padding: 15px;
     color: #393d41;
     background-position: center center;
 }
 
+/* Stili per le intestazioni */
 h1 {
-    font-size: 1.8rem;
+    font-size: 2.2em;
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    line-height: 1.5;
+    text-align: center;
+    padding-top: 1em;
 }
 
-h1,
 h2,
 h3,
 h4 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5em;
+    font-size: 1.7em;
     color: #25a2c3;
     line-height: 1.5;
     text-align: center;
@@ -32,6 +36,7 @@ h4 {
 }
 
 h5 {
+    font-size: 2em;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     text-align: center;
@@ -41,17 +46,27 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: white;
 }
 
+/* Stili per i paragrafi */
 p {
     padding-top: 0.5em;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
+.special_p {
+    padding-top: 4em;
+}
+
+.special_p_due {
+    font-size: 0.8em;
+}
+
+/* Stili per l'header */
 header {
     background-image: url(/asset/images/banner.jpg);
     color: black;
@@ -64,16 +79,15 @@ header {
     max-width: 50%;
 }
 
+/* Stili per il logo */
 #logo_contain {
     background-color: black;
     text-align: left;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+/* Ottimizzazione delle immagini */
 
+/* Padding per elementi principali */
 #logo,
 header,
 main,
@@ -81,6 +95,7 @@ footer {
     padding: 2%;
 }
 
+/* Stili per il bottone */
 button {
     background-color: #f04c2f;
     font-family: 'Montserrat', sans-serif;
@@ -90,14 +105,11 @@ button {
 }
 
 button a {
+    font-size: 2em;
     text-decoration: none;
 }
 
-.box_img {
-    width: 40%;
-    float: left;
-}
-
+/* stili e posizionamento immagini nella prima parte di article */
 .container {
     display: flex;
     justify-content: space-between;
@@ -114,47 +126,45 @@ button a {
     width: 50%;
     text-align: left;
 }
-
+/* Stili per le immagini con bordi arrotondati */
 .img_radius {
     border-radius: 50%;
     margin: auto;
 }
 
+/* Stili per una sezione evidenziata dell'article */
 #red {
     background-color: #e22d0e;
     color: white;
     margin: 2em 0;
 }
 
-.special_p {
-    padding-top: 4em;
-}
-
-
+/* un paragrafo che ha padding diverso dagli altri */
 .padding_p {
     padding: 1.5em;
 }
 
+/* posizionare gli elementi selezionati */
 .align_left h3,
 .align_left h2,
 .align_left p {
     text-align: left;
 }
 
+/* Stili per le citazioni */
 q {
     font-style: italic;
 }
 
-span {
-    font-size: 0.7em;
-}
-
+/* Stili per i bordi delle immagini nella sezione article */
 .border {
+    width: 100%;
     border: 1px solid #dee1e3;
     text-align: center;
     margin: 0 10px;
 }
 
+/* posizionamento elementi in section */
 section {
     display: flex;
     justify-content: center;
@@ -164,13 +174,12 @@ section {
     width: 100%;
 }
 
+/* Stili per il footer e per il posizionamento degli elementi */
 footer {
     display: flex;
     justify-content: center;
     background-color: #25a2c3;
 }
-
-
 
 .footer-container {
     display: flex;
@@ -190,10 +199,7 @@ address {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-
-.border_bottom {
+    color: white;
     border-bottom: 1px solid white;
     margin-bottom: 10px;
     padding-bottom: 20px;
@@ -201,11 +207,12 @@ address {
 
 address a {
     color: #c8e7f0;
-    text-align: center;
+    font-size: 1.5em;
 }
 
 span {
     text-align: center;
     margin: 0 auto 2em auto;
     color: #ffffff;
+    font-size: 1.1em;
 }
