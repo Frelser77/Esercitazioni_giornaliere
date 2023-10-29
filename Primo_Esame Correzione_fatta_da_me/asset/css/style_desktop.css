@@ -156,12 +156,15 @@ q {
     font-style: italic;
 }
 
-/* Stili per i bordi delle immagini nella sezione article */
+/* Stili per i bordi e le immagini nella sezione article */
 .border {
-    width: 100%;
     border: 1px solid #dee1e3;
     text-align: center;
     margin: 0 10px;
+}
+
+.img_special {
+    width: 100%;
 }
 
 /* posizionamento elementi in section */
