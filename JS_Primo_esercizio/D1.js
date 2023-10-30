@@ -64,8 +64,8 @@ console.log("Il mio primo nome è:" + namesecondo);
 */
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-var x = 4;
-console.log("12 meno x fa:" + (12 - x));
+
+console.log("12 meno x fa:" + (x - 4));
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
