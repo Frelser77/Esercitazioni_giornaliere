@@ -13,16 +13,23 @@ REGOLE
 
 /* RISPOSTA ESERCIZIO 1-Datatype
   1.Dato numerico: è semplicemente un numero (arabo) intero o decimale.
+    let numero = 12;
+    let numero2 = 12.5;
   2.Dato stringa: è una sequenza di caratteri, parole o frasi racchiusi in degli apici doppi("") o singoli ('').
+   let name = "Il mio nome è Salvatore";
   3.Dato booleano: è un valore che può essere vero (true) o falso (false).
+   let vero = true;
   4.dato null: un valore che è null, è una scatola vuota senza nulla dentro, ma può essere riscritto in seguito.
+   let null = null;
   5.dato undefined: un valore che è undefined, è un valore non definito, può rimanere così o può essere specificato in seguito.
+  let undefined;
 */
+
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA ESERCIZIO:2 */
 
 var name = "Salvatore";
 console.log("Il mio nome è: " + name);
@@ -30,7 +37,7 @@ console.log("Il mio nome è: " + name);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA ESERCIZIO:3 */
 
 var x = 12;
 var y = 20;
@@ -39,7 +46,7 @@ console.log(x + y);
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA ESERCIZIO:4 */
 var x = 12;
 console.log(x);
 
@@ -47,7 +54,7 @@ console.log(x);
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA ESERCIZIO:5 */
 
 name = "Alessandro";
 console.log("Il mio secondo nome è:" + name);
@@ -62,7 +69,7 @@ console.log("Il mio primo nome è:" + namesecondo);
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA ESERCIZIO:6 */
 
 
 console.log("12 meno x fa:" + (x - 4));
@@ -72,7 +79,7 @@ console.log("12 meno x fa:" + (x - 4));
  Verifica che name1 sia diversa da name2 (suggerimento: è la stessa cosa di verificare che la loro uguaglianza sia falsa).
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA ESERCIZIO:7 */
 
 var name1 = "john";
 var name2 = "John";
