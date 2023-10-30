@@ -41,14 +41,14 @@ console.log("Il mio nome è: " + name);
 
 var x = 12;
 var y = 20;
-console.log(x + y);
+console.log("12 + 20 fa: " + (x + y));
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 /* RISPOSTA ESERCIZIO:4 */
 var x = 12;
-console.log(x);
+console.log("x vale: " + x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
