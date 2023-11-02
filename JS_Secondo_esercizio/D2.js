@@ -1,5 +1,5 @@
 /* ESERCIZIO 1
- Scrivi un algoritmo per trovare il più grande tra due numeri interi.
+Scrivi un algoritmo per trovare il più grande tra due numeri interi.
  // due variabili da conrontare (i else)
 */
 
@@ -9,9 +9,11 @@ let num1 = 10;
 let num2 = 20;
 
 if (num1 > num2) {
-  console.log("Il primo numero è maggiore " + (num1 > num2));
+  console.log("Il primo numero è maggiore");
+} else if (num1 < num2) {
+  console.log("Il secondo numero è maggiore");
 } else {
-  console.log("Il secondo numero è maggiore " + (num2 < num1));
+  console.log("I due numeri sono uguali");
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -49,8 +51,8 @@ if (numx % 5 === 0) {
 
 /* RISPOSTA ESERCIZIO 4 */
 
-let numY = 16;
-let numU = 8;
+let numY = 10;
+let numU = 2;
 
 if (numY === 8 || numU === 8) {
   console.log("Uno dei numeri è uguale a 8");
@@ -60,10 +62,13 @@ if (numY + numU === 8) {
   console.log("La somma dei numeri è uguale a 8");
 }
 
-if (Math.abs(numY - numU) === 8) {
+if ((numY - numU) === 8) {
   console.log("La differenza tra i numeri è uguale a 8");
 }
 
+/* if (numY === 8 || numU === 8 || numY + numU === 8 || numY - numU === 8 || numU - numY === 8)
+  console.log("Verificato");    !!!!!!MODO PER SCRIVERE MENO CODICE!!!!!!
+*/
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* ESERCIZIO 5
@@ -75,14 +80,21 @@ if (Math.abs(numY - numU) === 8) {
 /* RISPOSTA ESERCIZIO 5 */
 
 let totCarrello = 55;
-let spedizioneGratuita = "hai diritto alla spedizione gratuita,";
-let costoSpedizione = 10;
+// let spedizioneGratuita = "hai diritto alla spedizione gratuita,";
+let totPay = totCarrello;
+let shippingCost = 10;
 
-if (totCarrello > 50) {
-  console.log("Totale da pagare: " + (spedizioneGratuita + " pagherai: " + totCarrello + "€"));
-} else if (totCarrello <= 50) {
-  console.log("Totale da pagare: " + (costoSpedizione + totCarrello + "€"));
+
+
+if (totCarrello < 50) {
+  totPay += shippingCost;
 }
+console.log("Totale da pagare: " + totPay);
+// if (totCarrello > 50) {
+//   console.log("Totale da pagare: " + (spedizioneGratuita + " pagherai: " + totCarrello + "€"));
+// } else if (totCarrello <= 50) {
+//   console.log("Totale da pagare: " + (costoSpedizione + totCarrello + "€"));
+// }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -285,8 +297,10 @@ console.log(myArray);
 
 /* RISPOSTA ESERCIZIO 15 */
 
+// myArray[myArray.length - 1] = 100;
+// console.log(myArray);
 
-myArray[myArray.length - 1] = 100;
+myArray[9] = 100;
 console.log(myArray);
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------*/
