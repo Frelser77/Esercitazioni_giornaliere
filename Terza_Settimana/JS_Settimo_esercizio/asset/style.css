@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body {
+    margin: 0;
+    background-color: #131334;
+    font-family: 'Outfit', sans-serif;
+    color: #ebebeb;
+    font-family: 'Rubik Mono One', monospace;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    color: #ec147e;
+}
+
+h3 {
+    text-align: center;
+    color: #ec147e;
+}
+
+#tabellone {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 5px;
+    background-color: #131334;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.cella {
+    width: 50px;
+    height: 50px;
+    background-color: #4793ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.evidenziato {
+    background-color: #49499b;
+}
+
+#estrainumero,
+#creacartelle {
+    display: block;
+    margin: 20px auto;
+}
+
+#tabelline {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    background-color: #131334;
+    max-width: 200px;
+    margin: 20px auto;
+}
