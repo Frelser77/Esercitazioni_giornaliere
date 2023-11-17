@@ -190,7 +190,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
         questionEl.innerHTML = question.question;
         answerListEl.innerHTML = '';
 
-        // CONTATORE DOMANDE ES.1/10
         const countAnswers = document.createElement('span');
         countAnswers.className = 'countAnswers';
         const questionText = document.createElement('span');
@@ -232,6 +231,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
                 nextButton.addEventListener("click", () => {
                     if (selectedAnswer === questions[questionNumber].correct_answer) {
                         score++;
+                        // console.log("score:", score);
                     }
 
                     highlightSelectedAnswer(selectedAnswer);
@@ -271,8 +271,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const totalQuestions = questions.length;
         const percentCorrect = (score / totalQuestions) * 100;
         const percentIncorrect = 100 - percentCorrect;
+
         //punteggio minimo per passare il quiz
         const passingScore = 60;
+
         // calcolo circonferenze per i risultati
         const radius = 90;
         const circumference = 2 * Math.PI * radius;
